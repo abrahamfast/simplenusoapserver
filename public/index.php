@@ -6,7 +6,7 @@ $sconfig = require __DIR__ . "/../config/params.php";
 $aconfig = require __DIR__ . "/../config/app.php";
 
 $server = new nusoap_server();
-$server->configureWSDL("IMINotification", "urn:IMINotification");
+$server->configureWSDL("SimpleWebservice", "urn:SimpleWebservice");
 
 // add your method
 $server->register('notification', $sconfig['notification']['input'], $sconfig['notification']['output']);
