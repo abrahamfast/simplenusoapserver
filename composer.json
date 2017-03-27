@@ -1,0 +1,8 @@
+{
+    
+    "require": {
+        "codecasts/nusoap-php7": "^0.9.7",
+        "phpunit/phpunit": "^6.0"
+    }
+
+}
