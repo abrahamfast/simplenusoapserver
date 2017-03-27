@@ -4,7 +4,7 @@ return  [
         'notification'=> [
             'input' =>
             [ 
-                'input' => [], "output" => ['return' => 'xsd:string']
+                'input' => ['param' => 'xsd:string'], "output" => ['return' => 'xsd:string']
             ],
             "output" => 
             [ 
